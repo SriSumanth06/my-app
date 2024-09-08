@@ -1,0 +1,105 @@
+/* src/AboutPage.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  .about-page {
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .about-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .about-header h1 {
+    font-size: 3rem;
+    color: #fff8f8;
+  }
+  
+  .about-overview, .about-mission, .about-values, .about-team {
+    margin-bottom: 40px;
+  }
+  
+  .about-overview h2, .about-mission h2, .about-team h2 {
+    font-size: 2rem;
+    color: #ffffff; /* White text color */
+    background-color: #000000; /* Black background color */
+    border-bottom: 2px solid #ff0000;
+    padding: 10px 15px; /* Reduced padding */
+    margin-bottom: 20px;
+  }
+  
+  .about-values h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    background-color: black;
+    border-bottom: 2px solid #ff0000;
+    padding: 10px 15px; /* Reduced padding for consistency */
+    margin-bottom: 20px;
+  }
+  
+  .about-overview p, .about-mission p {
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  
+  .about-team {
+    width: 100%; /* Full width to ensure the heading spans the entire width */
+    padding: 0; /* No additional padding */
+    margin-bottom: 40px;
+    text-align: left; /* Center the heading text */
+    ;
+  }
+  
+  .about-team h2 {
+    display: inline-block; /* Keep the heading in a single line */
+    margin: 0;
+  }
+  
+  .team-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of cards to the next line if necessary */
+    gap: 20px;
+    justify-content: center; /* Center the cards horizontally */
+  }
+  
+  .team-member {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .team-photo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .team-info {
+    text-align: left;
+  }
+  
+  .team-info h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .team-info p {
+    color: #666;
+  }
+  

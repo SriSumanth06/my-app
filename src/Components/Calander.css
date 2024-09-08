@@ -1,0 +1,31 @@
+/* src/components/Dashboard.css */
+.dashboard {
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 10px;
+   
+  }
+  
+  .calendar-section {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    border-radius: 50px;
+    align-items: right;
+  }
+  
+  .grid-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .grid-item {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+  

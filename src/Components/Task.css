@@ -1,0 +1,38 @@
+/* Styles for the Daily Tasks card */
+.daily-tasks-card {
+    width: 100%; /* Ensure the card takes the full width of the column */
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Optional: add a light border for definition */
+  }
+  
+  .daily-tasks-card .card-body {
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+  .daily-tasks-card .card-title,
+  .daily-tasks-card .card-text {
+    color: #890000; /* Set text color to white */
+  }
+  
+  /* Styles for the Upcoming Tasks card */
+  .upcoming-tasks-card {
+    width: 100%; /* Ensure the card takes the full width of the column */
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Optional: add a light border for definition */
+  }
+  
+  .upcoming-tasks-card .card-body {
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+  .upcoming-tasks-card .card-title,
+  .upcoming-tasks-card .card-text {
+    color: #ffffff; /* Set text color to white */
+  }
+  
+  /* Optional: List styling inside the card */
+  .daily-tasks-card .list-unstyled li,
+  .upcoming-tasks-card .list-unstyled li {
+    color: #ffffff; /* Set list item color to white */
+    margin-bottom: 10px; /* Space between list items */
+  }
